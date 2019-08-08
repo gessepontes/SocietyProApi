@@ -1,0 +1,63 @@
+2018-09-20T08:46:59.3234263-03:00 0HLGUC1RCIH5R:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:53487/api/player/GetPlayerTeam/1   (ca22a1cb)
+2018-09-20T08:46:59.5967603-03:00 0HLGUC1RCIH5R:00000001 [INF] Policy execution successful. (0204925d)
+2018-09-20T08:46:59.6378960-03:00 0HLGUC1RCIH5R:00000001 [INF] Request finished in 330.4501ms 204  (791a596a)
+2018-09-20T08:46:59.7029435-03:00 0HLGUC1RCIH5R:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:53487/api/player/GetPlayerTeam/1   (ca22a1cb)
+2018-09-20T08:46:59.7453273-03:00 0HLGUC1RCIH5R:00000002 [INF] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MzcyOTE0OTUsImlzcyI6Imdlc3NlLnBvbnRlcyIsImF1ZCI6Imdlc3NlLnBvbnRlcyJ9.FDWdI9Gb5czY4Wwd7jdqm7DXNsPp0r_ElqsqOEVxo9Q". (f3081a27)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '09/18/2018 17:24:55'
+Current time: '09/20/2018 11:46:59'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2018-09-20T08:46:59.7658577-03:00 0HLGUC1RCIH5R:00000002 [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '09/18/2018 17:24:55'
+Current time: '09/20/2018 11:46:59'." (48071232)
+2018-09-20T08:46:59.7804538-03:00 0HLGUC1RCIH5R:00000002 [INF] Policy execution successful. (0204925d)
+2018-09-20T08:46:59.7978935-03:00 0HLGUC1RCIH5R:00000002 [INF] Executing action method "SocietyProApi.Api.Controllers.PlayerController.GetPlayerTeam (SocietyProApi.Api)" with arguments (["1"]) - ModelState is Valid (ba7f4ac2)
+2018-09-20T08:47:00.9046213-03:00 0HLGUC1RCIH5R:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-09-20T08:47:00.9205100-03:00 0HLGUC1RCIH5R:00000002 [INF] Executed action "SocietyProApi.Api.Controllers.PlayerController.GetPlayerTeam (SocietyProApi.Api)" in 1122.8512ms (afa2e885)
+2018-09-20T08:47:00.9516592-03:00 0HLGUC1RCIH5R:00000002 [INF] Request finished in 1274.0462ms 200 application/json; charset=utf-8 (791a596a)
+2018-09-20T08:47:03.8074949-03:00 0HLGUC1RCIH5R:00000003 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:53487/api/field/   (ca22a1cb)
+2018-09-20T08:47:03.8525787-03:00 0HLGUC1RCIH5R:00000003 [INF] Policy execution successful. (0204925d)
+2018-09-20T08:47:03.9029395-03:00 0HLGUC1RCIH5R:00000003 [INF] Request finished in 86.6728ms 204  (791a596a)
+2018-09-20T08:47:03.9262390-03:00 0HLGUC1RCIH5R:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:53487/api/field/   (ca22a1cb)
+2018-09-20T08:47:03.9588577-03:00 0HLGUC1RCIH5R:00000004 [INF] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MzcyOTE0OTUsImlzcyI6Imdlc3NlLnBvbnRlcyIsImF1ZCI6Imdlc3NlLnBvbnRlcyJ9.FDWdI9Gb5czY4Wwd7jdqm7DXNsPp0r_ElqsqOEVxo9Q". (f3081a27)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '09/18/2018 17:24:55'
+Current time: '09/20/2018 11:47:03'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2018-09-20T08:47:04.0109874-03:00 0HLGUC1RCIH5R:00000004 [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '09/18/2018 17:24:55'
+Current time: '09/20/2018 11:47:03'." (48071232)
+2018-09-20T08:47:04.0348335-03:00 0HLGUC1RCIH5R:00000004 [INF] Policy execution successful. (0204925d)
+2018-09-20T08:47:04.0582694-03:00 0HLGUC1RCIH5R:00000004 [INF] Executing action method "SocietyProApi.Api.Controllers.FieldController.Get (SocietyProApi.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-09-20T08:47:04.2603907-03:00 0HLGUC1RCIH5R:00000004 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-09-20T08:47:04.2786946-03:00 0HLGUC1RCIH5R:00000004 [INF] Executed action "SocietyProApi.Api.Controllers.FieldController.Get (SocietyProApi.Api)" in 222.4993ms (afa2e885)
+2018-09-20T08:47:04.3007898-03:00 0HLGUC1RCIH5R:00000004 [INF] Request finished in 376.8997ms 200 application/json; charset=utf-8 (791a596a)
+2018-09-20T08:47:07.4607017-03:00 0HLGUC1RCIH5R:00000005 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:53487/api/field/1018   (ca22a1cb)
+2018-09-20T08:47:07.4744671-03:00 0HLGUC1RCIH5R:00000005 [INF] Policy execution successful. (0204925d)
+2018-09-20T08:47:07.4889526-03:00 0HLGUC1RCIH5R:00000005 [INF] Request finished in 31.5046ms 204  (791a596a)
+2018-09-20T08:47:07.5031406-03:00 0HLGUC1RCIH5R:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:53487/api/field/1018   (ca22a1cb)
+2018-09-20T08:47:07.5255696-03:00 0HLGUC1RCIH5R:00000006 [INF] Failed to validate the token "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MzcyOTE0OTUsImlzcyI6Imdlc3NlLnBvbnRlcyIsImF1ZCI6Imdlc3NlLnBvbnRlcyJ9.FDWdI9Gb5czY4Wwd7jdqm7DXNsPp0r_ElqsqOEVxo9Q". (f3081a27)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '09/18/2018 17:24:55'
+Current time: '09/20/2018 11:47:07'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwt, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.<HandleAuthenticateAsync>d__6.MoveNext()
+2018-09-20T08:47:07.5434555-03:00 0HLGUC1RCIH5R:00000006 [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired.
+ValidTo: '09/18/2018 17:24:55'
+Current time: '09/20/2018 11:47:07'." (48071232)
+2018-09-20T08:47:07.5570080-03:00 0HLGUC1RCIH5R:00000006 [INF] Policy execution successful. (0204925d)
+2018-09-20T08:47:07.5692391-03:00 0HLGUC1RCIH5R:00000006 [INF] Executing action method "SocietyProApi.Api.Controllers.FieldController.Get (SocietyProApi.Api)" with arguments (["1018"]) - ModelState is Valid (ba7f4ac2)
+2018-09-20T08:47:07.7382554-03:00 0HLGUC1RCIH5R:00000006 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-09-20T08:47:07.7483813-03:00 0HLGUC1RCIH5R:00000006 [INF] Executed action "SocietyProApi.Api.Controllers.FieldController.Get (SocietyProApi.Api)" in 180.7923ms (afa2e885)
+2018-09-20T08:47:07.7612422-03:00 0HLGUC1RCIH5R:00000006 [INF] Request finished in 256.1385ms 200 application/json; charset=utf-8 (791a596a)

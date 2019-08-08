@@ -1,0 +1,326 @@
+2018-07-22T22:28:18.0596012-03:00 0HLFG7E8P538S:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:28:32.2795160-03:00 0HLFG7E8P538S:00000001 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at SocietyProApi.Api.Startup.<ConfigureServices>b__4_0(JwtBearerOptions options) in C:\Users\Gesse\source\repos\SocietyProApi\SocietyProApi.Api\Startup.cs:line 43
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.<InitializeAsync>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.<GetHandlerAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-07-22T22:28:32.4848362-03:00 0HLFG7E8P538S:00000001 [INF] Request finished in 14468.8216ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-22T22:28:32.6498574-03:00 0HLFG7E8P538S:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:53486/favicon.ico   (ca22a1cb)
+2018-07-22T22:28:32.7569335-03:00 0HLFG7E8P538S:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at SocietyProApi.Api.Startup.<ConfigureServices>b__4_0(JwtBearerOptions options) in C:\Users\Gesse\source\repos\SocietyProApi\SocietyProApi.Api\Startup.cs:line 43
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.<InitializeAsync>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.<GetHandlerAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-07-22T22:28:32.8631829-03:00 0HLFG7E8P538S:00000002 [INF] Request finished in 206.9097ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-22T22:30:24.4330105-03:00 0HLFG7E8P538T:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:30:24.5710345-03:00 0HLFG7E8P538T:00000001 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at SocietyProApi.Api.Startup.<ConfigureServices>b__4_0(JwtBearerOptions options) in C:\Users\Gesse\source\repos\SocietyProApi\SocietyProApi.Api\Startup.cs:line 43
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.<InitializeAsync>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.<GetHandlerAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-07-22T22:30:24.6733903-03:00 0HLFG7E8P538T:00000001 [INF] Request finished in 235.5048ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-22T22:30:24.7007006-03:00 0HLFG7E8P538T:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:53486/favicon.ico   (ca22a1cb)
+2018-07-22T22:30:24.7693558-03:00 0HLFG7E8P538T:00000002 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.Text.Encoding.GetBytes(String s)
+   at SocietyProApi.Api.Startup.<ConfigureServices>b__4_0(JwtBearerOptions options) in C:\Users\Gesse\source\repos\SocietyProApi\SocietyProApi.Api\Startup.cs:line 43
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c__DisplayClass10_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.<InitializeAsync>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.<GetHandlerAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<AuthenticateAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-07-22T22:30:24.8461965-03:00 0HLFG7E8P538T:00000002 [INF] Request finished in 148.4ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-22T22:30:38.0062178-03:00 0HLFG7FIFC2PC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:30:38.4031404-03:00 0HLFG7FIFC2PC:00000001 [INF] Executed action "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" in 9.4388ms (afa2e885)
+2018-07-22T22:30:38.5421908-03:00 0HLFG7FIFC2PC:00000001 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.InvalidOperationException: Unable to resolve service for type 'SocietyProApi.Domain.Interfaces.EntityFramework.IPessoaRepository' while attempting to activate 'SocietyProApi.Api.Controllers.PessoaController'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-07-22T22:30:38.7133786-03:00 0HLFG7FIFC2PC:00000001 [INF] Request finished in 741.7106ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-22T22:30:38.8259537-03:00 0HLFG7FIFC2PC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:53486/favicon.ico   (ca22a1cb)
+2018-07-22T22:30:38.8488104-03:00 0HLFG7FIFC2PC:00000002 [INF] Request finished in 21.8542ms 404  (791a596a)
+2018-07-22T22:34:31.3404082-03:00 0HLFG7HO0SGR3:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:34:31.7100891-03:00 0HLFG7HO0SGR3:00000001 [INF] Executing action method "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-07-22T22:34:39.2689560-03:00  [WRN] Heartbeat took longer than "00:00:01" at "07/23/2018 01:34:39 +00:00". (439152bf)
+2018-07-22T22:34:39.2714874-03:00 0HLFG7HO0SGR3:00000001 [INF] Executed action "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" in 7515.4529ms (afa2e885)
+2018-07-22T22:34:39.5173894-03:00 0HLFG7HO0SGR3:00000001 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.NotImplementedException: The method or operation is not implemented.
+   at SocietyProApi.Data.Repository.EntityFramework.PessoaRepository.GetAll() in C:\Users\Gesse\source\repos\SocietyProApi\SocietyProApi.Data\Repositories\EntityFramework\PessoaRepository.cs:line 17
+   at SocietyProApi.Api.Controllers.PessoaController.Get() in C:\Users\Gesse\source\repos\SocietyProApi\SocietyProApi.Api\Controllers\PessoaController.cs:line 25
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-07-22T22:34:39.7300370-03:00 0HLFG7HO0SGR3:00000001 [INF] Request finished in 8429.736ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-22T22:34:39.8783783-03:00 0HLFG7HO0SGR3:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:53486/favicon.ico   (ca22a1cb)
+2018-07-22T22:34:39.9232279-03:00 0HLFG7HO0SGR3:00000002 [INF] Request finished in 28.7131ms 404  (791a596a)
+2018-07-22T22:39:24.6789578-03:00 0HLFG7KFEP0IT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:39:25.0487161-03:00 0HLFG7KFEP0IT:00000001 [INF] Executing action method "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-07-22T22:40:02.1632040-03:00 0HLFG7KQJSOA4:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:40:02.5454579-03:00 0HLFG7KQJSOA4:00000001 [INF] Executing action method "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-07-22T22:47:56.6737009-03:00 0HLFG7P81H471:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:47:57.2626085-03:00 0HLFG7P81H471:00000001 [INF] Executing action method "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-07-22T22:48:01.9700593-03:00 0HLFG7P81H471:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-07-22T22:48:02.3439819-03:00 0HLFG7P81H471:00000001 [INF] Executed action "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" in 5285.0281ms (afa2e885)
+2018-07-22T22:48:02.3632085-03:00 0HLFG7P81H471:00000001 [INF] Request finished in 5729.4963ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-22T22:48:03.0604247-03:00 0HLFG7P81H471:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:53486/favicon.ico   (ca22a1cb)
+2018-07-22T22:48:03.0809964-03:00 0HLFG7P81H471:00000002 [INF] Request finished in 16.4429ms 404  (791a596a)
+2018-07-22T22:49:56.4811156-03:00 0HLFG7QBO000M:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:49:57.0216447-03:00 0HLFG7QBO000M:00000001 [INF] Executing action method "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-07-22T22:50:05.1748183-03:00 0HLFG7QBO000M:00000001 [INF] Executed action "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" in 8350.5721ms (afa2e885)
+2018-07-22T22:50:05.7252345-03:00 0HLFG7QBO000M:00000001 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Pessoas'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SocietyProApi.Data.Repository.EntityFramework.Common.RepositoryBase`1.GetAll() in C:\Users\Gesse\source\repos\SocietyProApi\SocietyProApi.Data\Repositories\EntityFramework\Common\RepositoryBase.cs:line 27
+   at SocietyProApi.Api.Controllers.PessoaController.Get() in C:\Users\Gesse\source\repos\SocietyProApi\SocietyProApi.Api\Controllers\PessoaController.cs:line 25
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+ClientConnectionId:dec0e997-0928-47a3-8d0b-a19e2809fad7
+Error Number:208,State:1,Class:16
+2018-07-22T22:50:06.1261362-03:00 0HLFG7QBO000M:00000001 [INF] Request finished in 9678.4218ms 500 text/html; charset=utf-8 (791a596a)
+2018-07-22T22:50:06.3081769-03:00 0HLFG7QBO000M:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:53486/favicon.ico   (ca22a1cb)
+2018-07-22T22:50:06.3337209-03:00 0HLFG7QBO000M:00000002 [INF] Request finished in 38.1287ms 404  (791a596a)
+2018-07-22T22:51:03.6655226-03:00 0HLFG7QVONR4Q:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:51:04.1959531-03:00 0HLFG7QVONR4Q:00000001 [INF] Executing action method "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-07-22T22:51:08.3260689-03:00 0HLFG7QVONR4Q:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-07-22T22:51:08.6071670-03:00 0HLFG7QVONR4Q:00000001 [INF] Executed action "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" in 4592.1806ms (afa2e885)
+2018-07-22T22:51:08.6246609-03:00 0HLFG7QVONR4Q:00000001 [INF] Request finished in 5011.8088ms 200 application/json; charset=utf-8 (791a596a)
+2018-07-22T22:51:09.7447295-03:00 0HLFG7QVONR4Q:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:53486/favicon.ico   (ca22a1cb)
+2018-07-22T22:51:09.7723458-03:00 0HLFG7QVONR4Q:00000002 [INF] Request finished in 20.8469ms 404  (791a596a)
+2018-07-22T22:58:07.9002726-03:00 0HLFG7QVONR4S:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:53486/api/pessoa   (ca22a1cb)
+2018-07-22T22:58:07.9125122-03:00 0HLFG7QVONR4S:00000001 [INF] Executing action method "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-07-22T22:58:09.6874123-03:00 0HLFG7QVONR4S:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-07-22T22:58:09.7438860-03:00 0HLFG7QVONR4S:00000001 [INF] Executed action "SocietyProApi.Api.Controllers.PessoaController.Get (SocietyProApi.Api)" in 1822.5559ms (afa2e885)
+2018-07-22T22:58:09.7650091-03:00 0HLFG7QVONR4S:00000001 [INF] Request finished in 1858.5717ms 200 application/json; charset=utf-8 (791a596a)
